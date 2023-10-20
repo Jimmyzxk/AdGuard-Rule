@@ -15,14 +15,14 @@ application:
       - 'https://cdn.jsdelivr.net/gh/hoshsadiq/adblock-nocoin-list/hosts.txt'  #adblock-nocoin-list
       - 'https://cdn.jsdelivr.net/gh/durablenapkin/scamblocklist/adguard.txt' #Scam Blocklist
       - 'https://someonewhocares.org/hosts/zero/hosts' #Dan Pollock's List
-      #- 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
+      - 'https://cdn.jsdelivr.net/gh/AdguardTeam/FiltersRegistry/filters/filter_15_DnsFilter/filter.txt' #AdGuard DNS filter
       - 'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext' #Peter Lowe's List
       - 'https://abp.oisd.nl/basic/' #OISD Blocklist Basic
       #- 'https://adaway.org/hosts.txt' #AdAway Default Blocklist
       - 'https://cdn.jsdelivr.net/gh/crazy-max/WindowsSpyBlocker/data/hosts/spy.txt' #WindowsSpyBlocker
       - 'https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad-pc.txt' #HalfLife（pc）
       - 'https://cdn.jsdelivr.net/gh/banbendalao/ADgk@master/ADgk.txt' #Adgk
-      #- 'https://cdn.jsdelivr.net/gh/VeleSila/yhosts/hosts.txt' #yhosts
+      - 'https://cdn.jsdelivr.net/gh/VeleSila/yhosts/hosts.txt' #yhosts
       - 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts' #大圣净化
       #- 'https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list' #Domains classified as tracking or advertising
       - 'https://code.gitlink.org.cn/hacamer/AdRules/raw/branch/main/adguard-full.txt' #AdRules AdGuard Full List
@@ -52,7 +52,7 @@ application:
       - 'https://raw.githubusercontents.com/timlu85/AdGuard-Home_Youtube-Adfilter/master/Youtube-Adfilter-Web.txt' #name: Youtube-Adfilter-Web
       - 'https://raw.githubusercontents.com/91ajames/ublock-filters-ulist-youtube/main/blocklist.txt' #name: ublock-filters-ulist-youtube
       #KoolProxy规则
-      #- 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/koolproxy.txt' #name:静态白名单规则
+      - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/koolproxy.txt' #name:静态白名单规则
       - 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/daily.txt' #name:每日规则
       #- 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/adg.txt' #name:AdGuard规则
       #- 'https://raw.iqiq.io/ilxp/koolproxy/master/rules/adgk.txt' #name:Banben规则
