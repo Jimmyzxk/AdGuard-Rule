@@ -1,4 +1,4 @@
-# Update time: 2023-12-03 20:23:04
+# Update time: 2023-12-04 09:00:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -104,6 +104,7 @@ getAds|
 piao.js|
 oHead6205.appendChild( oScript6205);
 ||ad-
+||ads.
 ||vali-g1.cp31.ott.cibntv.net*.mp4
 ||adxapi.
 ||adsence.
@@ -113,11 +114,9 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||onetrust.
 ||icast.
 ||gg.
 ||union.
-||ads.
 ||cnzz.
 ||beacon.
 ||adpic.
@@ -128,6 +127,7 @@ advertisers.js|
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||onetrust.
 ||sax*.sina.
 ||bdcpro*.techweb.com.cn^
 ||dm*.ppzuowen.com^
@@ -185,6 +185,7 @@ analytics-*.aasaam.com
 ||counter*.stat.ovh^
 ||collector-*.pxchk.net^
 ||host*.carl-ras.dk^
+||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
@@ -558,7 +559,6 @@ rgmechanicsgames.com*VPN.exe
 ||util-*.simply-hentai.com^
 ||ads*.dfiles.ru^
 ||centent.streamp1ay.
-||ads.livetv*.me^
 ||142.91.159.
 ||cas.*.criteo.com^
 ||spryptvqguhpwt^
