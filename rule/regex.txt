@@ -1,4 +1,4 @@
-# Update time: 2024-07-04 20:27:14
+# Update time: 2024-07-05 09:03:57
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -212,7 +212,9 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||adservice.google.
+||counter*.stat.ovh^
 ||host*.carl-ras.dk^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
@@ -312,6 +314,7 @@ analytics-*.aasaam.com
 ||piwik.*.com.vn^
 ||mf*.advantage.as^
 ||button.blogs.yandex.
+||fxhpaoxqyajvmdg.
 ||host*.rigbyandpeller.com^
 ||tw*.netcore.co.in^
 ||mapi-log.qoo*.jp^
@@ -384,6 +387,7 @@ analytics-*.aasaam.com
 ||teasernet.
 ||popuptraf.
 ||host*.rvshare.com^
+||events-*.op.hicloud.com^
 ||158.247.208.
 ||geoloc*.geostats.ovh^
 ||ssp*.rtb.beeline.ru^
@@ -609,7 +613,6 @@ analytics-*.aasaam.com
 ||aj3*.bid^
 ||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
-||events-*.op.hicloud.com^
 ||zbc6hye*.xyz^
 ||aff*.kolektiva.net^
 ||events*.cre.ma^
@@ -667,14 +670,11 @@ rgmechanicsgames.com*VPN.exe
 @@||adobeid-*.services.adobe.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
-||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
-||counter*.stat.ovh^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
 ||142.91.159.
-||fxhpaoxqyajvmdg.
 ||spryptvqguhpwt^
 ||cintent.streanplay.
 Banner468x60
