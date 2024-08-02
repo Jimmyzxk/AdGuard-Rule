@@ -1,4 +1,4 @@
-# Update time: 2024-08-01 20:28:16
+# Update time: 2024-08-02 09:05:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -214,10 +214,9 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 ||host*.carl-ras.dk^
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
@@ -316,6 +315,7 @@ analytics-*.aasaam.com
 ||piwik.*.com.vn^
 ||mf*.advantage.as^
 ||button.blogs.yandex.
+||fxhpaoxqyajvmdg.
 ||host*.rigbyandpeller.com^
 ||tw*.netcore.co.in^
 ||mapi-log.qoo*.jp^
@@ -359,6 +359,7 @@ analytics-*.aasaam.com
 ||1024wanzhai.
 ||under-click.
 ||log-*.epicdn.me^
+||metric*.rediff.com^
 ||tracker.twenga.
 ||cdn*.swaxis.com^
 ||adimg*.search.naver.net^
@@ -386,7 +387,6 @@ analytics-*.aasaam.com
 ||teasernet.
 ||popuptraf.
 ||host*.rvshare.com^
-||events-*.op.hicloud.com^
 ||158.247.208.
 ||ssp*.rtb.beeline.ru^
 ||stats*.videonow.ru^
@@ -413,6 +413,7 @@ analytics-*.aasaam.com
 ||collector.xhamster*.
 ||poptraf.
 ||v*.sitecounter.site^
+||iad-*.braze.com^
 ||da.hornbach.*^
 ||appsflyer*.*^
 ||brucelead*.com^
@@ -567,7 +568,6 @@ analytics-*.aasaam.com
 ||mistat.*.xiaomi.com^
 ||stat.*.v-56.com^
 ||adcounter*.uptolike.ru^
-||metric*.rediff.com^
 ||ad*.ettoday.net^
 ||ad-*.amazonaws.com^
 ||ads*-normal*.zijieapi.com^
@@ -611,6 +611,7 @@ analytics-*.aasaam.com
 ||aj3*.bid^
 ||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
+||events-*.op.hicloud.com^
 ||zbc6hye*.xyz^
 ||aff*.kolektiva.net^
 ||events*.cre.ma^
@@ -642,7 +643,6 @@ analytics-*.aasaam.com
 ||aan.amazon.*^
 ||collect-elb-*.amazonaws.com^
 ||collector-*.px-cloud.net^
-||iad-*.braze.com^
 ||collector-*.tvsquared.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||counter*-yadro*-ru.unblocked.lol^
@@ -671,11 +671,11 @@ rgmechanicsgames.com*VPN.exe
 @@||adobeid-*.services.adobe.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
-||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
+||counter*.stat.ovh^
 ||centent.streamp1ay.
+||ads.livetv*.me^
 ||142.91.159.
-||fxhpaoxqyajvmdg.
 ||cintent.streanplay.
 Banner468x60
