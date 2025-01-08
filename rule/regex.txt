@@ -1,4 +1,4 @@
-# Update time: 2025-01-07 20:32:53
+# Update time: 2025-01-08 09:15:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -192,6 +192,8 @@ body {
             }
         return arguments;
 }
+||imgpfx.arenavision.
+||player-feedback*.glomex.*^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -200,6 +202,7 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||adservice.google.
 ||counter*.stat.ovh^
 |load.sst.
@@ -326,12 +329,12 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
+||fxhpaoxqyajvmdg.
 ||flurry.agentportal-*.yahoodns.net^
 ||zbb.bbb.*.pics^
 ||host*.rigbyandpeller.com^
 ||servo-report.keepstreams.*^
 ||tw*.netcore.co.in^
-||creative*.bidease.com^
 ||mapi-log.qoo*.jp^
 ||rum*.a.trbcdn.net^
 ||analytics-api.dvdfab.
@@ -442,8 +445,6 @@ analytics-*.aasaam.com
 ||collector.xhamster*.
 ||poptraf.
 ||v*.sitecounter.site^
-||imgpfx.arenavision.
-||player-feedback*.glomex.*^
 ||iad-*.braze.com^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
@@ -482,13 +483,11 @@ analytics-*.aasaam.com
 ||iflyad.*.openstorage.cn^
 ||freecontent.*^
 ||24smi.*^
-||doubleclick*.xyz^
 ||ac*.786ip.com^
 ||pingfore*.*^
 ||at*.doubanio.com^
 ||dm*.yxlady.com^
 ||openx*.*^
-||ablen*.tk^
 ||gg*.miguvideo.com^
 ||sda*.xyz^
 ||oiwjcsh*.top^
@@ -538,7 +537,6 @@ analytics-*.aasaam.com
 ||pussl*.com^
 ||same*.stockstar.com^
 ||admicro*.vcmedia.vn^
-||darking*.tk^
 ||ad*.molitv.cn^
 ||dsp*.youdao.com^
 ||domob*.*^
@@ -553,6 +551,7 @@ analytics-*.aasaam.com
 ||pangolin-sdk-toutiao*.com^
 ||ping*.qq.com^
 ||clog*.yuanfudao.com^
+||creative*.bidease.com^
 ||cj1*.online^
 ||sd.yhzzzs*.com^
 ||w*.*skwai.com^
@@ -691,15 +690,13 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||analytics.*.sky.com^
 ||ads*.opensubtitles.org^
+||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
 @@||adobeid-*.services.adobe.com^
-||fapnado.*.php|
-||itechpost.com*adbk
-||rgfftupf.
-@@||cdn*.porn300.com^
-||gamenguide.com*adbk
 ||centent.streamp1ay.
 ||142.91.159.
-||fxhpaoxqyajvmdg.
+||fapnado.*.php|
+||itechpost.com*adbk
+@@||cdn*.porn300.com^
 ||cintent.streanplay.
 Banner468x60
