@@ -1,4 +1,4 @@
-# Update time: 2025-02-10 20:32:35
+# Update time: 2025-02-11 09:14:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -64,6 +64,7 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
+||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -96,7 +97,6 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
-||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -192,6 +192,8 @@ body {
             }
         return arguments;
 }
+||imgpfx.arenavision.
+||player-feedback*.glomex.*^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
@@ -359,7 +361,6 @@ analytics-*.aasaam.com
 ||edgetrksvc.ebay.
 ||eclog*-*.cafe24.com^
 ||host*.polaroid.com^
-||datacollector-*.dt.dbankcloud.cn^
 ||s*.skencituer.com^
 ||underclick.
 ||imp-*.jampp.com^
@@ -391,6 +392,7 @@ analytics-*.aasaam.com
 ||icq-window.
 ||geoloc*.geovisite.ovh^
 ||icqwindow.
+||mssdk*.capcutapi.com^
 ||cnt.winporn.
 ||t*.zcvh.net^
 ||ulog*.kwai-pro.com^
@@ -449,8 +451,6 @@ analytics-*.aasaam.com
 ||collector.xhamster*.
 ||poptraf.
 ||v*.sitecounter.site^
-||imgpfx.arenavision.
-||player-feedback*.glomex.*^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||dm-*.toutiao.com^
@@ -577,6 +577,7 @@ analytics-*.aasaam.com
 ||www.xxmh*.com^
 ||ajx*.online^
 ||cas.*.criteo.com^
+||datacollector-*.dt.dbankcloud.cn^
 ||n*adserv.com^
 ||apple.com-*.live^
 ||zbc6hy*.live^
