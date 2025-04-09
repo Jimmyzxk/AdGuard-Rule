@@ -1,4 +1,4 @@
-# Update time: 2025-04-09 09:21:28
+# Update time: 2025-04-09 20:35:43
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -268,7 +268,6 @@ advertisers.js|
 @@||tongji.*kuwo.cn^
 ||gg*.51cto.com^
 ||tracker*.qcloud.com^
-||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
@@ -693,34 +692,7 @@ analytics-*.aasaam.com
 ||zbb.bbb.*.pics^
 ||tw*.netcore.co.in^
 ||v*.sitecounter.site^
-    };
-	}
-        loadFeed(...getLoadFeedArguments());
-            2025 Copyright | All Rights Reserved.
-<style>
-<!DOCTYPE html>
-    Privacy Policy
-			Buy this domain. | More domains at Seo.Domains
-                }
-                console.log(JSON.parse(xhr.responseText))
-        ];
-    }
-<script>
-            pageOptions
-    xhr.send();
-                    return;
-            } else {
-h1 {
-    function getLoadFeedArguments() {
-    <script>
-                arguments.push(this[possibleArguments[i]]);
-        }
-body {
-                console.log('There was a problem with the request.');
-            }
-        return arguments;
-}
-};
+||tnc16-*.byteoversea.com^
 ||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
@@ -738,3 +710,31 @@ rgmechanicsgames.com*VPN.exe
 ||fxhpaoxqyajvmdg.
 ||cintent.streanplay.
 Banner468x60
+<script>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+			Buy this domain. | More domains at Seo.Domains
+                }
+            2025 Copyright | All Rights Reserved.
+                console.log(JSON.parse(xhr.responseText))
+<style>
+        ];
+    Privacy Policy
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
