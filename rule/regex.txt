@@ -1,4 +1,4 @@
-# Update time: 2025-05-09 09:25:10
+# Update time: 2025-05-09 20:35:48
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -162,8 +162,8 @@ advertisers.js|
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
 <head>
-<body>
 <!doctype html>
+<body>
 <script>
             pageOptions
     xhr.send();
