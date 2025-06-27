@@ -1,4 +1,4 @@
-# Update time: 2025-06-26 20:39:13
+# Update time: 2025-06-27 09:38:17
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -300,6 +300,7 @@ body {
 ||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
+||ping*.qq.com^
 ||cj1*.online^
 ||sd.yhzzzs*.com^
 ||host*.carl-ras.dk^
@@ -314,8 +315,10 @@ body {
 ||collector-*.us.tvsquared.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
+||telemetry*.transcend.io^
 ||log*-misc-lf.amemv.com^
 ||stats2.*.fdnames.com^
+||v*.denakop.com^
 ||opnked*.xyz^
 ||ajx*.online^
 ||f-log-*.grammarly.io^
@@ -337,11 +340,13 @@ body {
 ||api*.bidmachine.io^
 ||t*.playdigo.live^
 ||geotargetly-api-*.com^
+||tnc16-*.hypic.com^
 ||mcs-va-*.tiktokv.com^
 ||events-api*.outfit7.com^
 ||display-ad-*.kgslb.com^
 ||ac*.pingguolv.com^
 ||tnc*.tiktokv.us^
+||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
 ||report*.appmetrica.webvisor.com^
 ||beacons*.gvt3.com^
@@ -381,6 +386,7 @@ body {
 ||events*.cre.ma^
 ||163487*.qmgmw.com^
 ||adx-*.dbankedge.cn^
+||tblog-*.kgslb.com^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
 ||cdn-adn-*.rayjump.com^
@@ -393,6 +399,7 @@ body {
 ||zaqlovh*.xyz^
 ||ad*.zonaplus.tv^
 ||datacollector-*.dt.hicloud.com^
+||n*adserv.xyz^
 ||piwik.*.vn^
 ||sonar*.xy.fbcdn.net^
 ||adsfilebssdlbig.*.kugou.com^
@@ -453,6 +460,7 @@ body {
 ||staging-*.ispot.tv^
 ||cas.*.criteo.com^
 ||datacollector-*.dt.dbankcloud.cn^
+||n*adserv.com^
 ||ks-p2p*pull*com^
 ||apiproxy-log-nlb-1f304af4d3ac01a4.elb.us-east-*.amazonaws.com^
 ||batchlogging*-noneu.truecaller.com^
@@ -467,6 +475,7 @@ body {
 ||gscounters.*.gigya.com^
 ||adserver.*.yahoodns.net^
 ||fads*z.com^
+||prod.*.publishers.advertising.a2z.com^
 ||c*hit.zerkalo.io^
 ||mon-*.tiktokv.com^
 ||client.rum.*.amazonaws.com^
@@ -495,6 +504,7 @@ body {
 ||log*.vietnamplus.vn^
 ||hn-ping*.hashnode.com^
 ||mcdp-*.outbrain.com^
+||prod.*.analytics.console.aws.a2z.com^
 ||sensorsdata*.read.duokan.com^
 ||mgbsdk*.matrix.easebar.com^
 ||api*.amplitude.com^
@@ -517,6 +527,7 @@ body {
 ||log*-*.tiktokv.com^
 ||zbc6hye*.xyz^
 ||logs-*.rebxgame.com^
+||promo-*.vercel.app^
 ||banner.*.tccapis.com^
 ||geoloc*.geostats.ovh^
 ||ssp*.rtb.beeline.ru^
@@ -559,7 +570,6 @@ analytics-*.aasaam.com
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
 ||v.tzbox*.xyz^
-||telemetry*.transcend.io^
 ||cnt.vivatube.
 ||rotabanner.
 ||advert*.ultraweb.hu^
@@ -582,7 +592,6 @@ analytics-*.aasaam.com
 ||sock*-goguardian.pusher.com^
 ||basvformu*.xyz^
 |load.ss.
-||tnc16-*.hypic.com^
 ||linkexchange.
 ||pangolin*.sgsnssdk.com^
 ||block.s*block.com^
