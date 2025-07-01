@@ -1,4 +1,4 @@
-# Update time: 2025-07-01 09:47:59
+# Update time: 2025-07-01 20:39:15
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,7 +55,6 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||report.*.qq.com^
-||onetrust.
 ||allyes.
 ||icast.
 ||gg.
@@ -65,7 +64,6 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
-||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -76,6 +74,7 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
@@ -97,6 +96,7 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
+||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -164,8 +164,39 @@ advertisers.js|
 ||vns86.oss-*.aliyuncs.com^
 ||asd8900.oss-*.aliyuncs.com^
 ||ky891.oss-*.aliyuncs.com^
+<script>
+    <noscript>
+            pageOptions
+    xhr.send();
+            } else {
+h1 {
+	}
+        loadFeed(...getLoadFeedArguments());
+    function getLoadFeedArguments() {
+                arguments.push(this[possibleArguments[i]]);
+        }
+};
+			Buy this domain. | More domains at Seo.Domains
+                }
+            2025 Copyright | All Rights Reserved.
+                console.log(JSON.parse(xhr.responseText))
+<style>
+        ];
+    Privacy Policy
+    }
+                    return;
+    };
+    <script>
+<!DOCTYPE html>
+body {
+                console.log('There was a problem with the request.');
+            }
+        return arguments;
+}
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
+||us.*.qwadro.com^
+||tnc16-*.byteoversea.com^
 ||da.hornbach.*^
 ||cloudservice*.kingsoft-office-service.com^
 ||dm-*.toutiao.com^
@@ -267,7 +298,6 @@ advertisers.js|
 @@||tongji.*kuwo.cn^
 ||gg*.51cto.com^
 ||tracker*.qcloud.com^
-||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
@@ -309,12 +339,10 @@ advertisers.js|
 ||api*.bidmachine.io^
 ||t*.playdigo.live^
 ||geotargetly-api-*.com^
-||tnc16-*.hypic.com^
 ||mcs-va-*.tiktokv.com^
 ||events-api*.outfit7.com^
 ||display-ad-*.kgslb.com^
 ||ac*.pingguolv.com^
-||tnc*.tiktokv.us^
 ||mistat.*.xiaomi.com^
 ||ad*.ettoday.net^
 ||report*.appmetrica.webvisor.com^
@@ -335,7 +363,6 @@ advertisers.js|
 ||mon*-misc-lf.fqnovel.com^
 ||mon*-misc.fqnovel.com^
 ||ads*.textra.me^
-||us.*.qwadro.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||zazgiyoh*.xyz^
@@ -485,7 +512,6 @@ advertisers.js|
 ||api*.batmobi.net^
 ||applog*.matrix.easebar.com^
 ||hstats*.hepsiburada.com^
-||tnc-va*.capcutapi.com^
 ||zabdybod*.club^
 ||ads*.depositfiles.org^
 ||hads*s.com^
@@ -536,6 +562,7 @@ analytics-*.aasaam.com
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
+||prebid-*.rubiconproject.com^
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
 ||v.tzbox*.xyz^
@@ -562,12 +589,14 @@ analytics-*.aasaam.com
 ||sock*-goguardian.pusher.com^
 ||basvformu*.xyz^
 |load.ss.
+||tnc16-*.hypic.com^
 ||linkexchange.
 ||pangolin*.sgsnssdk.com^
 ||block.s*block.com^
 ||sgtm.fairmont.
 ||marketplace-*.hyprmx.com^
 ||analytics.streamfab.
+||tnc*.tiktokv.us^
 ||log-collector.shopee.
 ||ad*.tmgrup.com.tr^
 ||goodadvert.
@@ -581,7 +610,6 @@ analytics-*.aasaam.com
 ||a*.smlog.co.kr^
 ||track.zalando.
 ||seller-log-collector.shopee.
-||advert*.livesportmedia.eu^
 ||subnewss*.net^
 ||t.delfi.
 ||hostingcloud.*.wasm^
@@ -685,6 +713,7 @@ analytics-*.aasaam.com
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||rotaban.
 ||prebid-cache*.ifunny.co^
+||tnc-va*.capcutapi.com^
 ||cnt.proporn.
 ||popuptraf.
 ||ulog*.kwaipros.com^
@@ -731,8 +760,8 @@ rgmechanicsgames.com*VPN.exe
 ||counter*.stat.ovh^
 ||centent.streamp1ay.
 ||ads.livetv*.me^
+||advert*.livesportmedia.eu^
 ||142.91.159.
 ||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
