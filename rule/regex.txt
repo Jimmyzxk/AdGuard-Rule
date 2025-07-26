@@ -1,4 +1,4 @@
-# Update time: 2025-07-25 20:40:44
+# Update time: 2025-07-26 09:40:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -64,6 +64,7 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
+||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -96,7 +97,6 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
-||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -297,7 +297,6 @@ body {
 ||gg*.51cto.com^
 ||tracker*.qcloud.com^
 ||us.*.qwadro.com^
-||iad-*.braze.com^
 ||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
@@ -380,7 +379,6 @@ body {
 ||adservice.google.*^
 ||ad.kisstvshow.*^
 ||device-metrics-*.amazon.com^
-||track.*.roku.com^
 ||widgets.*.webengage.com^
 ||ads*.depositfiles.com^
 ||ad-*.appacc.dbankedge.cn^
@@ -547,9 +545,9 @@ body {
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||aan.amazon.*^
+||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
-||tracking-*.trnox.com^
 ||hw-p2p*pull*com^
 ||gtlpa*.com^
 ||ali-p2p*pull*com^
@@ -579,7 +577,6 @@ analytics-*.aasaam.com
 ||bondzgi*.
 ||etargetnet.*.hu^
 ||ulog-*.ksapisrv.com^
-||prebid-*.rubiconproject.com^
 ||rum*.cdnvideo.ru^
 ||sgtm.fashionunited.
 ||partner.superbahisaffiliates*.com^
@@ -676,6 +673,7 @@ analytics-*.aasaam.com
 ||hostingcloud.*.wasm^
 ||ubacollect-*.cloud.dbankcloud.cn^
 ||medialand.
+||track.*.roku.com^
 ||rotaban.
 ||install*.zonastat.com^
 ||rusrestbest.
@@ -722,6 +720,7 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||adserver1.
 ||ad*.mellesleg.hu^
+||tracking-*.trnox.com^
 ||sgtm.wimdu.
 ||backstory.ebay.
 ||adx-*.dbankcloud.
@@ -764,5 +763,6 @@ rgmechanicsgames.com*VPN.exe
 ||ads.livetv*.me^
 ||142.91.159.
 ||fxhpaoxqyajvmdg.
+||prebid-*.rubiconproject.com^
 ||cintent.streanplay.
 Banner468x60
