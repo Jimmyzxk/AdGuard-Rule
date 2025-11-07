@@ -1,4 +1,4 @@
-# Update time: 2025-11-07 09:25:47
+# Update time: 2025-11-07 20:38:02
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -64,6 +64,7 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
+||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -96,7 +97,6 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
-||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -167,36 +167,52 @@ advertisers.js|
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
     })();
-  console.log('Callback complete.');
-        iframe {
+            document.getElementById('loading')?.remove();
 <script>
     <noscript>
-            return null;
-            console.log(data);
+    xhr.send();
         } else {
+            } else {
 	}
 h1 {
-    document.getElementById('content').remove();
+iframe {
         }
-    });
-            window.onRTBFailure();
+        document.getElementById('content')?.remove();
 };
 			Buy this domain. | More domains at Seo.Domains
+                }
+        function handleRTBFailure() {
+                console.log(JSON.parse(xhr.responseText))
+<style>
+    (function () {
+            console.log('Failure callback complete.');
+    }
+    <style>
+                    return;
+    };
+<div>
+                return;
+body {
+            handleRTBFailure();
+                console.log('There was a problem with the request.');
+            }
+}
     })
         h1 {
         p {
         footer {
-<style>
+  console.log('Callback complete.');
         body {
-    (function () {
-    }
+        iframe {
         return JSON.parse(await response.text());
         window.onRTBFailure();
-<div>
+            return null;
+            console.log(data);
     <script>
         console.error(error);
-body {
-}
+    document.getElementById('content').remove();
+    });
+            window.onRTBFailure();
 ||da.hornbach.*^
 ||dm-*.toutiao.com^
 ||adsystem*.*^
@@ -254,6 +270,9 @@ body {
 ||qchannel*.cn^
 ||tracker*.qcloud.com^
 ||adwords*.*^
+||us.*.qwadro.com^
+||iad-*.braze.com^
+||tnc16-*.byteoversea.com^
 ||pixel*.production-public.tubi.io^
 ||host*.nti.nl^
 ||ping*.qq.com^
@@ -326,7 +345,6 @@ body {
 ||mon*-misc-lf.fqnovel.com^
 ||mon*-misc.fqnovel.com^
 ||ads*.textra.me^
-||us.*.qwadro.com^
 ||aj2*.online^
 ||cs*.mp3bars.com^
 ||ecommerce-events*.adscale.com^
@@ -391,7 +409,6 @@ body {
 ||eum*.instana.io^
 ||report.*.gbqofs.io^
 ||ads*-normal-lq.zijieapi.com^
-||tnc16-*.byteoversea.com^
 ||fads*s.com^
 ||ads-dmp-collect.*.karrotmarket.com^
 ||collector-*.protechts.net^
@@ -438,6 +455,7 @@ body {
 ||apple-*.le.com^
 ||imp-*.jampp.com^
 ||mobileanalytics.*.amazonaws.com^
+||tracking.*.miui.com^
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||adv0*.msa.cdn.mediaset.net^
@@ -517,9 +535,9 @@ body {
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||aan.amazon.*^
-||iad-*.braze.com^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
+||tracking-*.trnox.com^
 ||hw-p2p*pull*com^
 ||telemetry.*.pvp.net^
 ||gtlpa*.com^
@@ -537,11 +555,8 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
@@ -590,6 +605,7 @@ analytics-*.aasaam.com
 ||a*.smlog.co.kr^
 ||track.zalando.
 ||seller-log-collector.shopee.
+||advert*.livesportmedia.eu^
 ||subnewss*.net^
 ||t.delfi.
 ||hostingcloud.*.wasm^
@@ -631,7 +647,6 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||query*.petametrics.com^
 ||button.blogs.yandex.
-||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||tw*.netcore.co.in^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
@@ -657,7 +672,6 @@ analytics-*.aasaam.com
 ||underclick.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
-||tracking.*.miui.com^
 ||cnt.hd21.
 ||ulog.*.ksapisrv.com^
 ||servo-report.dvdfab.
@@ -705,7 +719,6 @@ analytics-*.aasaam.com
 |load.gtm.
 ||stats*.videonow.ru^
 ||pixel.archive.
-||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||q*-publick.club^
 ||iad-*.appboy.com^
@@ -717,7 +730,6 @@ analytics-*.aasaam.com
 ||snowplow-collector-*.amazonaws.com^
 ||ms*.applvn.com^
 ||thegreatesthits.
-||tracking-*.trnox.com^
 ||sgtm.wimdu.
 ||snowplow-collector.
 ||www.fuze-hill*.xyz^
@@ -733,14 +745,18 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
+||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
-||gamenguide.com*adbk
 rgmechanicsgames.com*VPN.exe
-||advert*.livesportmedia.eu^
-||142.91.159.
 ||javascriptbasics^
 ||fapnado.*.php|
 ||itechpost.com*adbk
+||rgfftupf.
 @@||cdn*.porn300.com^
 ||admi2fib4exit^
+||gamenguide.com*adbk
+||counter*.stat.ovh^
+||ads.livetv*.me^
+||142.91.159.
+||fxhpaoxqyajvmdg.
 Banner468x60
