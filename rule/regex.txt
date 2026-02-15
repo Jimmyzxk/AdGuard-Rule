@@ -1,4 +1,4 @@
-# Update time: 2026-02-15 10:10:43
+# Update time: 2026-02-15 20:50:13
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -64,7 +64,6 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
-||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -97,6 +96,7 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
+||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -214,6 +214,7 @@ analytics-*.aasaam.com
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
 ||107.167.22.*.gif
+||trace-*.hungrypanda.co^
 ||v.tzbox*.xyz^
 ||cnt.vivatube.
 ||rotabanner.
@@ -392,6 +393,8 @@ analytics-*.aasaam.com
 ||ya*.dwstatic.com^
 ||ms*.applvn.com^
 ||thegreatesthits.
+||track-*.hungrypanda.co^
+||tracking-*.trnox.com^
 ||sgtm.wimdu.
 ||snowplow-collector.
 ||www.fuze-hill*.xyz^
@@ -427,7 +430,6 @@ analytics-*.aasaam.com
 ||collector-*.us.tvsquared.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
-||trace-*.hungrypanda.co^
 ||beehiiv-adnetwork-production.s*.amazonaws.com^
 ||telemetry*.transcend.io^
 ||collector-*.perimeterx.net^
@@ -696,10 +698,8 @@ analytics-*.aasaam.com
 ||chat*-ce.chatdealer.jp^
 ||aan.amazon.*^
 ||iad-*.braze.com^
-||track-*.hungrypanda.co^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
-||tracking-*.trnox.com^
 ||telemetry.*.pvp.net^
 ||gtlpa*.com^
 ||gbxreport-*.wf.com^
