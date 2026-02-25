@@ -1,4 +1,4 @@
-# Update time: 2026-02-25 10:05:59
+# Update time: 2026-02-25 21:03:26
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,21 +55,26 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||report.*.qq.com^
-||onetrust.
+||allyes.
 ||icast.
 ||gg.
 ||union.
+||ad.
 ||ads.
 ||cnzz.
 ||adsfile.
+||adserver.
 ||adpic.
 ||sax.sina.
 ||biz5.
+||adsense.
 ||xmindchina.
+||ggg.
 ||admaster.
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
+||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
@@ -85,11 +90,9 @@ MRelateFeedAd
 ||adstats.
 ||toujing*.top^
 ||popup.*.js*
-||ggg.
 ||advert.
 ||irs01.
 ||advert-
-||allyes.
 ||adcolony.
 ||advertising.
 ||showad*
@@ -109,18 +112,15 @@ getAds|
 ||appjiagu.
 ||img.piaosugo.com*.jpg
 ||adsmis.
-||adserver.
 ||sense-*.tapdb.net^
 ||pc.min.js*
 ||minero-proxy-*now.sh
 ||pagead2.
 ||guangyaoli.
-||adsense.
 ||ading.
 ||googleads.
 ||umengacs.
 ||ads-
-||ad.
 piao.js|
 oHead6205.appendChild( oScript6205);
 ||ad-
@@ -155,11 +155,14 @@ try {
 ||tnc16-*.byteoversea.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||production-adserver-*.amazonaws.com^
+||get*bannerads-6egeg2u34q-du.a.run.app^
 ||mobiadvert*.livesportmedia.eu^
 ||iad-*.appboy.com^
 ||jtbo*.nqxvevk.cn^
+||events-*.op.hicloud.com^
 ||iad-*.braze.com^
 ||ms*.applvn.com^
+||ifengad.*.ifeng.com^
 ||v*-ad.video.yximgs.com^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
 ||da.hornbach.*^
@@ -231,6 +234,7 @@ try {
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
+||ysdm*.ys137.com.cn^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||admob-app-id-*.firebaseio.com^
@@ -307,7 +311,6 @@ try {
 ||ulog*.*^
 ||a*.smlog.co.kr^
 ||mcs-*.tiktok.com^
-||ifengad.*.ifeng.com^
 ||bjkedv*.xyz^
 ||p26.gejulm*.com^
 ||adservice.google.*^
@@ -404,7 +407,6 @@ try {
 ||log-v*-boot.capcutapi.com^
 ||zazgbqg*.xyz^
 ||browser-intake-*-datadoghq.com^
-||get*bannerads-6egeg2u34q-du.a.run.app^
 ||collector-*.px-cdn.net^
 ||ads*.zijieapi.com^
 ||host*.polaroid.com^
@@ -488,7 +490,6 @@ try {
 ||aj3*.bid^
 ||host*.rvshare.com^
 ||log*-*.tiktokv.com^
-||events-*.op.hicloud.com^
 ||zbc6hye*.xyz^
 ||logs-*.rebxgame.com^
 ||promo-*.vercel.app^
@@ -509,6 +510,7 @@ try {
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||aan.amazon.*^
+||ya*.dwstatic.com^
 ||track-*.hungrypanda.co^
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||bjsvp*.space^
@@ -541,7 +543,6 @@ analytics-*.aasaam.com
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||prebid-*.rubiconproject.com^
-||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -710,7 +711,6 @@ analytics-*.aasaam.com
 |a.klaviyo.com^
 ||ad.*.doubleclick.net^
 ||snowplow-collector-*.amazonaws.com^
-||ya*.dwstatic.com^
 ||thegreatesthits.
 ||sgtm.wimdu.
 ||snowplow-collector.
