@@ -1,4 +1,4 @@
-# Update time: 2026-03-08 10:04:27
+# Update time: 2026-03-08 20:47:45
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -133,14 +133,14 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-	window.location.replace(redirect_link + suffix);
-			clearTimeout(rdrTimeout);
 } catch (err) {
-function redirect(suffix) {
 <html>
 <head>
-	if (redirected) return;
 		});
+	window.location.replace(redirect_link + suffix);
+			clearTimeout(rdrTimeout);
+function redirect(suffix) {
+	if (redirected) return;
 }
 try {
 ||imgpfx.arenavision.
