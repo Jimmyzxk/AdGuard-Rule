@@ -1,4 +1,4 @@
-# Update time: 2026-06-04 00:46:54
+# Update time: 2026-06-04 11:56:49
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -141,7 +141,6 @@ advertisers.js|
 ||mediate-ios-*.hyprmx.com^
 ||ir-new-cdn-eu-west-*-hb.rayjump.com^
 ||us.*.qwadro.com^
-||creative*.bidease.com^
 ||mob*.novanewsapp.com^
 ||tnc16-*.byteoversea.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
@@ -230,7 +229,6 @@ advertisers.js|
 ||log*-normal-*.tiktokv.us^
 ||hw-sh-pcdn-*.biliapi.net^
 ||faro-collector-prod-*.grafana.net^
-||ysdm*.ys137.com.cn^
 ||lt*.tritondigital.com^
 ||api-*.hismarttv.com^
 ||eflbundles.*.com.tr^
@@ -384,6 +382,7 @@ advertisers.js|
 ||logreport-global-dual.cool*cloud.com^
 ||clog*.yuanfudao.com^
 ||htm*.hepsiburada.com^
+||creative*.bidease.com^
 ||mapi-log.qoo*.jp^
 ||fanpingbi*.gaokao.com^
 ||dn*.ixinwei.com^
@@ -540,15 +539,13 @@ analytics-*.aasaam.com
 ||gtmdev.jabra.
 ||tracking.olx.
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
-||counter*.stat.ovh^
 |load.sst.
-||ads.livetv*.me^
 ||allsportsflix.
 ||iphone-caviar.ru*entranceId
 ||w*statistics.info^
 ||prebid-*.rubiconproject.com^
+||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
 ||log*-normal-*.tiktokv.com
 ||partner.superbahisaffiliates*.com^
@@ -621,7 +618,6 @@ analytics-*.aasaam.com
 ||dw-informer-*.newsru.com^
 |piwik.
 ||letssex.
-||ad-host-backup-*.aliyuncs.com^
 ||cl*.k5a.io^
 ||analytics.ahrefs.
 ||s*.adduplex.com^
@@ -640,7 +636,6 @@ analytics-*.aasaam.com
 ||query*.petametrics.com^
 ||121.204.246.*.gif
 ||button.blogs.yandex.
-||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
 ||rum*.a.trbcdn.net^
@@ -662,6 +657,7 @@ analytics-*.aasaam.com
 ||eclog*-*.cafe24.com^
 ||s*.skencituer.com^
 ||underclick.
+||advertising.civitai.
 ||bc.geocities.
 ||tag-based.s3.*.amazonaws.com^
 ||cnt.hd21.
@@ -710,7 +706,6 @@ analytics-*.aasaam.com
 |load.gtm.
 ||stats*.videonow.ru^
 ||pixel.archive.
-||reachableads-av.*.amazonaws.com^
 ||ad*.thisisgame.com^
 ||q*-publick.club^
 ||minitds-*.info^
@@ -733,16 +728,21 @@ analytics-*.aasaam.com
 ||poptraf.
 ||v*.sitecounter.site^
 ||touch.yesim.
+||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||23.109.82.
+||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
+||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
+||counter*.stat.ovh^
 ||158.247.208.
+||ads.livetv*.me^
 ||142.91.159.
 |167.206.10.148^
 ||23.109.87.
-||advertising.civitai.
+||fxhpaoxqyajvmdg.
 Banner468x60
