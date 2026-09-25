@@ -1,4 +1,4 @@
-# Update time: 2026-09-25 11:36:34
+# Update time: 2026-09-26 00:37:33
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -261,6 +261,7 @@ advertisers.js|
 ||ulog*.*^
 ||mcdp-*.outbrain.com^
 ||prod.*.analytics.console.aws.a2z.com^
+||a*.smlog.co.kr^
 ||bjkedv*.xyz^
 ||matomo.*.vn^
 ||p26.gejulm*.com^
@@ -390,7 +391,6 @@ analytics-*.aasaam.com
 ||ads*.textra.me^
 ||ecommerce-events*.adscale.com^
 ||counter*.freecounter.ovh^
-||a*.smlog.co.kr^
 ||track.zalando.
 ||mcs-*.tiktok.com^
 ||subnewss*.net^
@@ -526,10 +526,13 @@ analytics-*.aasaam.com
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||adservice.google.
 ||mcs-normal-*.capcutapi.com^
 ||trace-*.free-reels.com^
+||counter*.stat.ovh^
 ||host*.carl-ras.dk^
+||ads.livetv*.me^
 ||iphone-caviar.ru*entranceId
 ||hw-sh-pcdn-*.biliapi.net^
 ||nelonenmedia-pmd-ads-*.nm-stream.nelonenmedia.fi^
@@ -628,6 +631,7 @@ analytics-*.aasaam.com
 ||mf*.advantage.as^
 ||121.204.246.*.gif
 ||buzzer.xhamster*
+||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
 ||servo-report.keepstreams.*^
@@ -714,6 +718,7 @@ analytics-*.aasaam.com
 ||logs-*.rebxgame.com^
 ||stats*.videonow.ru^
 ||hba*.hepsiburada.com^
+||reachableads-av.*.amazonaws.com^
 ||mon-va*.capcutapi.com^
 ||q*-publick.club^
 ||collect-v*.51.la^
@@ -737,21 +742,16 @@ analytics-*.aasaam.com
 ||collector*.ex.co^
 ||touch.yesim.
 ||v*.sitecounter.site^
-||reachableads-av.*.amazonaws.com^
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||23.109.82.
 ||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
-||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
-||counter*.stat.ovh^
 ||158.247.208.
-||ads.livetv*.me^
 ||142.91.159.
 |167.206.10.148^
 ||23.109.87.
-||fxhpaoxqyajvmdg.
 Banner468x60
