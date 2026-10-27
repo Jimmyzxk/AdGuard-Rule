@@ -1,4 +1,4 @@
-# Update time: 2026-10-27 02:16:49
+# Update time: 2026-10-27 11:50:32
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -8571,6 +8571,7 @@ imgdawgknuttz.com##+js(aost, atob, inlineScript)
 watchfreexxx.net##.happy-player-beside, .happy-section, .widget_execphp:has-text(/Advertisement|ExoLoader/)
 reqlinks.net##+js(set, blurred, false)
 ##[href^="http://referrer.website/"]
+mcoc-guide.com#@#ins.adsbygoogle[data-ad-client]
 @@||maxcheaters.com/uploads2/country/*.gif$image
 mangahere.onl##+js(aopr, loadRunative)
 sexykittenporn.com##.hr.babes
@@ -13831,6 +13832,7 @@ giveawayoftheday.com##+js(nosiif, _checkBait)
 m.aajtak.in##body > #adbocker_alt.adblocker-page
 windowcleaningforums.co.uk##+js(nostif, show)
 ||socialbars-web5.com/*/notifications/$script
+mcoc-guide.com#@#ins.adsbygoogle[data-ad-slot]
 ###placeAds
 @@||scaleya.com^$ghide
 youjizz.com##+js(noeval)
@@ -13912,7 +13914,6 @@ ampproject.net##.trc-content-sponsored
 xcafe.com##+js(aeld, , bi())
 @@||promods.net/kampyle.js$script,1p
 feet9.com##.hvr-pulse
-<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>
 ||pub-77106c9273be4f3fbec6b6d6c3c51b7f.r2.dev^$all
 /^https:\/\/hotels-\d{6}\.eu\//$doc,to=eu|~booking.com
 ||tronlink.com.co^$all
@@ -18840,6 +18841,7 @@ igualdad.iaa.csic.es##+js(acs, String.prototype.toLowerCase, Contract)
 ||fixedfloat.ca^$doc
 ||celebri.jp^$doc
 ||gomabalerainc.top^$all
+<!DOCTYPE html><html><head><script>window.onload=function(){window.location.href="/lander"}</script></head></html>
 tvtropes.org##+js(nostif, /offsetHeight|loaded/)
 chzzkban.xyz##+js(trusted-suppress-native-method, Node.prototype.contains, '{"className":"adsbygoogle"}', abort)
 web.facebook.com,www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id)
@@ -19045,6 +19047,7 @@ bus-location.1507t.xyz##div[id]:has(> script[src^="https://adm.shinobi.jp"]):sty
 ||static.veevcdn.co/assets/videoplayer/$script,3p,replace=/\'adblockEnabled\':[a-zA-Z]{2}/'adblockEnabled':false/g,domain=poophq.com|veev.to|doods.to
 @@||xn--gckdevd5myivf.site/wp-includes/js/jquery/jquery-migrate.min.js
 ||igorslab.de/wp-content/uploads/2025/10/Terminator-Air_300-x-400-1.jpg
+www.youtube.com##+js(trusted-edit-inbound-object, JSON.stringify, 0, [?.createCommentParams].context.client.userAgent=repl({"regex":"/; (adunit|channel|lactmilli|instream|inline|yahi|eafg)\b/"\,"replacement":""}))
 @@||monhan-soku.com/wp-content/themes/monhan-soku-theme/assets/js/comment-more.js
 decompiler.com##+js(nosiif, === false)
 elektroda.pl##.topic-lists-wrap > ul > li:not(.post) a:has(source)
@@ -21515,6 +21518,7 @@ elcorreo.com##.v-r-adv
 supleks.jp###footer-banner
 pornhub.com,pornhub.org##.mgp_overlayContainer
 eroist.site##div[class*="koukoku"]
+dengekionline.com##div[class$="_pickUpBannerForSp"]
 m.nate.com###ad_mid
 osusume.mynavi.jp##div[data-myanalysis="sidemenu-ad"]
 m.cifraclub.com.br##pre > button[type]:contains(Remover anúncio)
@@ -21701,6 +21705,7 @@ gismeteo.ru##.tab-containers > div.tab-container:has(> div.rss-social)
 bepal.net###single-fv > div[style="min-height: 180px;"]
 games.nme-jp.com##header.sp
 m.xtales.top##.bottom-banner
+russiatoday.ru##.sparrow-banner
 amarujala.com##.ad-mb
 lalluram.com##.lr-ad-banner-bottom
 op.gg###video-metaTrend-ad
@@ -25713,6 +25718,7 @@ mainichikirei.jp##.article__inner > div[style^="text-align:center; margin-top:"]
 ameblo.jp##body .skinBody2 > div[style="overflow: hidden;"] > main + aside[class^="_"]
 sanspo.com##amp-iframe[src^="https://static.aja-recommend.com"]
 m.iceporn.com##.main > .introduction
+dengekionline.com##div[class$="_headerBannerForSp"]
 opensourceprojects.dev##.carbon-ad-container-mobile
 businessinsider-com-pl.cdn.ampproject.org##.bottomLayerBar
 woman.ru##.mob-in__container
@@ -26423,6 +26429,7 @@ meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 ||*-applog.fqnovel.com^
 /^omgmtaw\./
 /^admarvel\./
+||*adapt-beacon.awsprodops.movetv.com^
 /^applovin\./
 ||*conversions.appsflyersdk.com^
 ||*register.appsflyersdk.com^
@@ -26453,7 +26460,6 @@ meeting.tencent.com##+js(no-xhr-if, /(trace|beacon)\.qq\.com/)
 @@||links.e.theatlantic.com^|
 @@||go.adjust.com^|
 @@||goto.walmart.com^|
-||*adapt-beacon.awsprodops.movetv.com^
 @@||a.sellpoint.net^|
 @@||vcentry3.valuecommerce.ne.jp^|
 @@|cdn.taboola.com^|
@@ -58270,7 +58276,6 @@ techonthenet.com#?#div[class] > p:contains(Advertisements)
 ||target.vivid.com^$third-party
 ||i.imgur.com^$domain=oko.sh|stfly.me|up-load.io|vizcloud2.*|flixtrz.com
 fortune.com##div[data-cy="rightRailAd"]
-mcoc-guide.com#@#ins.adsbygoogle[data-ad-slot]
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com###chapter-container > div[class]:has(> *:is([data-stpd], [id^="gpt_slot_"]))
 techno360.in#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adsbygoogle.js')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ads.luarmor.net
@@ -80100,7 +80105,6 @@ timesofindia.indiatimes.com#?#.sidebar > div[class*=" "]:has(> div > div > a[onc
 ||mediatarget.com^$third-party
 paidinsurance.in#%#//scriptlet('abort-on-property-write', 'detectAdBlock')
 @@||milanworld.net^$generichide
-mcoc-guide.com#@#ins.adsbygoogle[data-ad-client]
 showsport-tv.com##body > div[id*="_overlay"]
 tomshw.it##.customads__container_v2
 ||portal.librus.pl/ad|
@@ -88073,7 +88077,6 @@ roya.tv#$##wrapfabtest { height: 1px!important; }
 deemix.org#%#//scriptlet('remove-node-text', 'script', 'FingerprintJS')
 ||sweeva.com/images/banner250.gif
 idropnews.com##.ga-banner
-||user-shield.com/*&clickid=$all
 ||hqbang.com/api/
 topfiveforex.com##[href^="https://iqoption.com/"]
 deon.pl##.placeholder
@@ -97455,7 +97458,6 @@ mobilmania.cz##.advantage-clip
 ##.advertize
 @@||drugs.com^$generichide
 ||admoai.com^$third-party
-||adsquasher.com^$popup
 paliatracker.com##.container > div.relative.rounded.bg-gray-100
 ||ssl-images-amazon.com/images/S/apesafeframe/ape/sf/$script,subdocument
 robtex.com##div[id^="crt-"]
