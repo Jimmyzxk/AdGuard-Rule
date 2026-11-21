@@ -1,4 +1,4 @@
-# Update time: 2026-11-21 03:38:26
+# Update time: 2026-11-21 13:45:30
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,6 +55,7 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||report.*.qq.com^
+||onetrust.
 ||allyes.
 ||icast.
 ||gg.
@@ -64,6 +65,7 @@
 ||cnzz.
 ||adsfile.
 ||adserver.
+||adservice.
 ||adpic.
 ||sax.sina.
 ||biz5.
@@ -74,7 +76,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
@@ -96,7 +97,6 @@ MRelateFeedAd
 ||adcolony.
 ||advertising.
 ||showad*
-||adservice.
 ||pagead.
 ||djjca.
 ||imageadv.
@@ -133,9 +133,9 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+||entry-verifed-cdn.
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
-||entry-verifed-cdn.
 ||us.*.qwadro.com^
 ||iad-*.braze.com^
 ||ifengad.*.ifeng.com^
@@ -212,7 +212,6 @@ advertisers.js|
 ||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||analytics-rollout-*.amazonaws.com^
-||api-*.hismarttv.com^
 ||admob-app-id-*.firebaseio.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
@@ -233,7 +232,6 @@ advertisers.js|
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||ali-bj-pcdn-*.biliapi.net^
-||ana*.inews24.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
 ||ad-host-backup-*.s3.*.amazonaws.com^
@@ -250,7 +248,6 @@ advertisers.js|
 ||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||ad*.ettoday.net^
-||ad-*.amazonaws.com^
 ||faro-collector-*.grafana-ops.net^
 ||xy-*pcdn.msstatic.com^
 ||impservice*.yodao.com^
@@ -286,7 +283,6 @@ advertisers.js|
 ||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
-||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
 ||log*-*.tiktokv.com^
 ||zbc6hye*.xyz^
@@ -294,7 +290,6 @@ advertisers.js|
 ||promo-*.vercel.app^
 ||163487*.qmgmw.com^
 ||tblog-*.kgslb.com^
-||agatha-log-service-*.a.run.app^
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
 ||log-*.zadn.vn^
@@ -306,14 +301,12 @@ advertisers.js|
 ||uc*.atobo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
-||ad*.zonaplus.tv^
 ||n*adserv.xyz^
 ||piwik.*.vn^
 ||logger-*.dailymotion.com^
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||bdlm*.hc360.com^
-||ad*.nexage.com^
 ||aj1*.xyz^
 ||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
@@ -321,7 +314,6 @@ advertisers.js|
 ||aan.amazon.*^
 ||collector-*.px-cloud.net^
 ||bjsvp*.space^
-||analytics-v*.eip.telegraph.co.uk^
 ||log-*.previewnetworks.com^
 ||mads*z.com^
 ||gtlpa*.com^
@@ -345,7 +337,6 @@ advertisers.js|
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||union*.365inews.com^
-||analytics.*.sky.com^
 analytics-*.aasaam.com
 ||an.yandex.
 ||gtmdev.jabra.
@@ -422,6 +413,7 @@ analytics-*.aasaam.com
 ||ad*.gyaloglo.hu^
 ||adverticum.*.hu^
 ||dw-informer-*.newsru.com^
+||ad*.zonaplus.tv^
 |piwik.
 ||production-adserver-*.amazonaws.com^
 ||cl*.k5a.io^
@@ -480,6 +472,7 @@ analytics-*.aasaam.com
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||ads*-normal*.zijieapi.com^
+||ad-*.amazonaws.com^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
 ||rehs.*.hu^
@@ -548,6 +541,7 @@ analytics-*.aasaam.com
 ||faro-collector-prod-*.grafana.net^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
+||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
@@ -567,6 +561,7 @@ analytics-*.aasaam.com
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||ce-global-track-*.amazonaws.com^
 ||banner*.kinogo.by^
+||ana*.inews24.com^
 ||sock*-goguardian.pusher.com^
 |load.ss.
 ||events-api*.outfit7.com^
@@ -598,6 +593,7 @@ analytics-*.aasaam.com
 ||get-me-wow.
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
+||ad-*.appacc.dbankedge.cn^
 ||cnt.tubeon.
 ||videoclik.
 ||faro.civitai.
@@ -606,6 +602,7 @@ analytics-*.aasaam.com
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
+||agatha-log-service-*.a.run.app^
 ||log-va*.capcutapi.com^
 ||track.tiara.
 ||orbit*.lun.ua^
@@ -616,6 +613,7 @@ analytics-*.aasaam.com
 ||letssex.
 ||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
+||ad*.nexage.com^
 ||analytics.ahrefs.
 ||collect-elb-*.amazonaws.com^
 ||rtb-*.anysex.com^
@@ -638,6 +636,7 @@ analytics-*.aasaam.com
 ||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
 ||servo-report.keepstreams.*^
+||analytics.*.sky.com^
 ||logreport-global-dual.cool*cloud.com^
 ||htm*.hepsiburada.com^
 ||clog*.yuanfudao.com^
@@ -730,6 +729,7 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||sgtm.wimdu.
+||analytics-v*.eip.telegraph.co.uk^
 ||popunder.
 ||stat.tiara.
 ||fpb1.chinacar.
