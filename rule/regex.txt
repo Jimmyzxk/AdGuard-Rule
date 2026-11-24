@@ -1,4 +1,4 @@
-# Update time: 2026-11-24 16:33:19
+# Update time: 2026-11-25 05:56:42
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -55,6 +55,7 @@
 ||avito.avito.avito.
 ||yandex.pay.avito.
 ||report.*.qq.com^
+||onetrust.
 ||allyes.
 ||icast.
 ||gg.
@@ -74,7 +75,6 @@
 ||googleadservices.
 ||saxs.sina.
 ||adsame.
-||onetrust.
 ||adx.
 ||adx-
 ||adsfs.
@@ -133,9 +133,9 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
-||entry-verifed-cdn.
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
+||entry-verifed-cdn.
 ||us.*.qwadro.com^
 ||iad-*.braze.com^
 ||ifengad.*.ifeng.com^
@@ -212,6 +212,7 @@ advertisers.js|
 ||ads*.dfiles.ru^
 ||stun.*.kugou.com^
 ||analytics-rollout-*.amazonaws.com^
+||api-*.hismarttv.com^
 ||admob-app-id-*.firebaseio.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
@@ -232,6 +233,7 @@ advertisers.js|
 ||ads*.dfiles.eu^
 ||ads.*.yahoo.com^
 ||ali-bj-pcdn-*.biliapi.net^
+||ana*.inews24.com^
 ||a*.chajiaotong.com^
 ||gads*s.com^
 ||ad-host-backup-*.s3.*.amazonaws.com^
@@ -248,8 +250,10 @@ advertisers.js|
 ||tupian888.*.bcebos.com^
 ||metric*.rediff.com^
 ||ad*.ettoday.net^
+||ad-*.amazonaws.com^
 ||faro-collector-*.grafana-ops.net^
 ||xy-*pcdn.msstatic.com^
+||bapi-*.moengage.com^
 ||impservice*.yodao.com^
 ||js.*2023*.xyz^
 ||ac*.faxingchina.com^
@@ -283,6 +287,7 @@ advertisers.js|
 ||ads*.depositfiles.org^
 ||hads*s.com^
 ||aj3*.bid^
+||ad-*.appacc.dbankedge.cn^
 ||aj1*.online^
 ||log*-*.tiktokv.com^
 ||zbc6hye*.xyz^
@@ -302,6 +307,7 @@ advertisers.js|
 ||uc*.atobo.com^
 ||js.*2023*.live^
 ||zaqlovh*.xyz^
+||ad*.zonaplus.tv^
 ||n*adserv.xyz^
 ||piwik.*.vn^
 ||logger-*.dailymotion.com^
@@ -316,6 +322,7 @@ advertisers.js|
 ||aan.amazon.*^
 ||collector-*.px-cloud.net^
 ||bjsvp*.space^
+||analytics-v*.eip.telegraph.co.uk^
 ||log-*.previewnetworks.com^
 ||mads*z.com^
 ||gtlpa*.com^
@@ -339,6 +346,7 @@ advertisers.js|
 ||firebaselogging-*.googleapis.com^
 ||gads*z.com^
 ||union*.365inews.com^
+||analytics.*.sky.com^
 analytics-*.aasaam.com
 ||an.yandex.
 ||gtmdev.jabra.
@@ -389,7 +397,6 @@ analytics-*.aasaam.com
 ||tnc*.tiktokv.us^
 ||log-collector.shopee.
 ||report*.appmetrica.webvisor.com^
-||bapi-*.moengage.com^
 ||goodadvert.
 ||logservice-*.platform.dbankcloud.cn^
 ||stat*.1internet.tv^
@@ -415,7 +422,6 @@ analytics-*.aasaam.com
 ||ad*.gyaloglo.hu^
 ||adverticum.*.hu^
 ||dw-informer-*.newsru.com^
-||ad*.zonaplus.tv^
 |piwik.
 ||production-adserver-*.amazonaws.com^
 ||cl*.k5a.io^
@@ -474,7 +480,6 @@ analytics-*.aasaam.com
 ||mon*-*.tiktokv.com^
 ||collector-*.px-client.net^
 ||ads*-normal*.zijieapi.com^
-||ad-*.amazonaws.com^
 ||tnc*.zijieapi.com^
 ||tracker.twenga.
 ||rehs.*.hu^
@@ -530,7 +535,6 @@ analytics-*.aasaam.com
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
 ||teleriumads-*.netdna-ssl.com^
-||rgfftupf.
 ||adservice.google.
 ||mcs-normal-*.capcutapi.com^
 ||trace-*.free-reels.com^
@@ -541,7 +545,6 @@ analytics-*.aasaam.com
 ||faro-collector-prod-*.grafana.net^
 ||ysdm*.ys137.com.cn^
 ||sgtm.fashionunited.
-||api-*.hismarttv.com^
 ||partner.superbahisaffiliates*.com^
 ||mon-*.lemon8-app.us^
 ||mon-*.lemon8-app.com^
@@ -561,7 +564,6 @@ analytics-*.aasaam.com
 ||customerevents.us-east-*.internal.dradis.netflix.com^
 ||ce-global-track-*.amazonaws.com^
 ||banner*.kinogo.by^
-||ana*.inews24.com^
 ||sock*-goguardian.pusher.com^
 |load.ss.
 ||events-api*.outfit7.com^
@@ -593,7 +595,6 @@ analytics-*.aasaam.com
 ||get-me-wow.
 ||ubt.tracking.shopee.
 ||as*.prog.hu^
-||ad-*.appacc.dbankedge.cn^
 ||cnt.tubeon.
 ||videoclik.
 ||faro.civitai.
@@ -610,7 +611,6 @@ analytics-*.aasaam.com
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
 ||letssex.
-||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
 ||analytics.ahrefs.
 ||collect-elb-*.amazonaws.com^
@@ -630,11 +630,9 @@ analytics-*.aasaam.com
 ||analytics.dulo.
 ||mf*.advantage.as^
 ||buzzer.xhamster*
-||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
 ||servo-report.keepstreams.*^
-||analytics.*.sky.com^
 ||logreport-global-dual.cool*cloud.com^
 ||htm*.hepsiburada.com^
 ||clog*.yuanfudao.com^
@@ -726,7 +724,6 @@ analytics-*.aasaam.com
 ||thegreatesthits.
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
 ||sgtm.wimdu.
-||analytics-v*.eip.telegraph.co.uk^
 ||popunder.
 ||stat.tiara.
 ||fpb1.chinacar.
@@ -739,8 +736,10 @@ analytics-*.aasaam.com
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||23.109.82.
+||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
+||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
@@ -749,4 +748,5 @@ rgmechanicsgames.com*VPN.exe
 ||142.91.159.
 |167.206.10.148^
 ||23.109.87.
+||fxhpaoxqyajvmdg.
 Banner468x60
