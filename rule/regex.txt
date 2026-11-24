@@ -1,4 +1,4 @@
-# Update time: 2026-11-24 07:25:10
+# Update time: 2026-11-24 16:33:19
 # Repo URL: AdGuard、AdGuardHome广告过滤规则合并/去重
 
 ###################################   合并/去重自以下规则   ####################################
@@ -133,9 +133,9 @@ advertisers.js|
 ||yazhouyu.
 ||advertise.
 ||ap*.pl520.com^
+||entry-verifed-cdn.
 ||imgpfx.arenavision.
 ||player-feedback*.glomex.*^
-||entry-verifed-cdn.
 ||us.*.qwadro.com^
 ||iad-*.braze.com^
 ||ifengad.*.ifeng.com^
@@ -211,6 +211,7 @@ advertisers.js|
 ||analytics-*-nfl.yinzcam.com^
 ||ads*.dfiles.ru^
 ||stun.*.kugou.com^
+||analytics-rollout-*.amazonaws.com^
 ||admob-app-id-*.firebaseio.com^
 ||qn-*pcdn.cdn.huya.com^
 ||zazgiyoh*.world^
@@ -269,6 +270,7 @@ advertisers.js|
 ||prod.*.analytics.console.aws.a2z.com^
 ||analytics.*.adjust.com^
 ||a*.smlog.co.kr^
+||api*.amplitude.com^
 ||bjkedv*.xyz^
 ||matomo.*.vn^
 ||p26.gejulm*.com^
@@ -288,9 +290,11 @@ advertisers.js|
 ||promo-*.vercel.app^
 ||163487*.qmgmw.com^
 ||tblog-*.kgslb.com^
+||agatha-log-service-*.a.run.app^
 ||cdn-adn-*.rayjump.com^
 ||zahrvfbd*.xyz^
 ||log-*.zadn.vn^
+||api*.moengage.com^
 ||bdcpro*.techweb.com.cn^
 ||p2pup*.gamedl.qq.com^
 ||qn-*pcdn.cdn.msstatic.com^
@@ -304,9 +308,12 @@ advertisers.js|
 ||adsfilebssdlbig.*.kugou.com^
 ||mautic.*.vn^
 ||bdlm*.hc360.com^
+||ad*.nexage.com^
 ||aj1*.xyz^
+||analytics*.carambo.la^
 ||chat*-ce.chatdealer.jp^
 ||util-*.simply-hentai.com^
+||aan.amazon.*^
 ||collector-*.px-cloud.net^
 ||bjsvp*.space^
 ||log-*.previewnetworks.com^
@@ -342,6 +349,7 @@ analytics-*.aasaam.com
 ||w*statistics.info^
 ||log*-normal-*.tiktokv.us^
 ||allsportsflix.
+||prebid-*.rubiconproject.com^
 ||lt*.tritondigital.com^
 ||log*-normal-*.tiktokv.com
 ||eflbundles.*.com.tr^
@@ -487,7 +495,6 @@ analytics-*.aasaam.com
 ||logstash-*.radio-canada.ca^
 ||i-*.ci360.sas.com^
 ||app-analytics-*.snapchat.com^
-||api*.amplitude.com^
 ||ulog.*.kwai-pro.com^
 ||api*.batmobi.net^
 ||applog*.matrix.easebar.com^
@@ -503,11 +510,9 @@ analytics-*.aasaam.com
 |load.gtm.
 ||ssp*.rtb.beeline.ru^
 ||pixel.archive.
-||api*.moengage.com^
 ||ad*.thisisgame.com^
 ||minitds-*.info^
 ||snowplow-collector-*.amazonaws.com^
-||aan.amazon.*^
 ||ms*.applvn.com^
 ||track-*.hungrypanda.co^
 ||tracking-*.trnox.com^
@@ -525,6 +530,7 @@ analytics-*.aasaam.com
 ||host*.nti.nl^
 ||adserver*.euroweeklynews.com^
 ||teleriumads-*.netdna-ssl.com^
+||rgfftupf.
 ||adservice.google.
 ||mcs-normal-*.capcutapi.com^
 ||trace-*.free-reels.com^
@@ -596,7 +602,6 @@ analytics-*.aasaam.com
 ||adx-*.dbankedge.cn^
 ||pixel-*.rubiconproject.com^
 ||mcs-*.lemon8-app.com^
-||agatha-log-service-*.a.run.app^
 ||log-va*.capcutapi.com^
 ||track.tiara.
 ||orbit*.lun.ua^
@@ -605,8 +610,8 @@ analytics-*.aasaam.com
 ||datacollector-*.dt.hicloud.com^
 ||mon-v*-boot.capcutapi.com^
 ||letssex.
+||ad-host-backup-*.aliyuncs.com^
 ||sonar*.xy.fbcdn.net^
-||ad*.nexage.com^
 ||analytics.ahrefs.
 ||collect-elb-*.amazonaws.com^
 ||rtb-*.anysex.com^
@@ -624,6 +629,8 @@ analytics-*.aasaam.com
 ||tnc16-*.byteoversea.com^
 ||analytics.dulo.
 ||mf*.advantage.as^
+||buzzer.xhamster*
+||fxhpaoxqyajvmdg.
 ||zbb.bbb.*.pics^
 ||flurry.agentportal-*.yahoodns.net^
 ||servo-report.keepstreams.*^
@@ -647,7 +654,6 @@ analytics-*.aasaam.com
 ||host*.ncoi.nl^
 ||lively-collect-elb-*.amazonaws.com^
 ||rum*.cdnvideo.ru^
-||analytics-rollout-*.amazonaws.com^
 ||adservice.google.co.*
 ||u*.takru.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
@@ -716,7 +722,6 @@ analytics-*.aasaam.com
 ||polaris*-normal-*.zijieapi.com^
 |a.klaviyo.com^
 ||ad.*.doubleclick.net^
-||analytics*.carambo.la^
 ||ya*.dwstatic.com^
 ||thegreatesthits.
 ||geoloc*.9cd47096ab1495d8d3b18667f6a52b9c.com^
@@ -734,19 +739,14 @@ analytics-*.aasaam.com
 ||ads*.opensubtitles.org^
 rgmechanicsgames.com*VPN.exe
 ||23.109.82.
-||ad-host-backup-*.aliyuncs.com^
 ||fapnado.*.php|
 ||itechpost.com*adbk
-||rgfftupf.
 @@||cdn*.porn300.com^
 ||gamenguide.com*adbk
 ||counter*.stat.ovh^
 ||158.247.208.
 ||ads.livetv*.me^
 ||142.91.159.
-||buzzer.xhamster*
 |167.206.10.148^
 ||23.109.87.
-||fxhpaoxqyajvmdg.
-||prebid-*.rubiconproject.com^
 Banner468x60
